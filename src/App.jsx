@@ -100,6 +100,7 @@ function App() {
           />
           
           <main className="flex-1 p-4 md:p-6 overflow-auto">
+            <h1>Hello from Manus!</h1>
             <Routes>
               <Route path="/login" element={<Login onLogin={handleLogin} />} />
               <Route path="/register" element={<Register />} />
